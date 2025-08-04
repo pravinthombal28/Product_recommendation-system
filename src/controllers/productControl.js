@@ -9,7 +9,7 @@ exports.saveProduct=(req,res)=>{
         res.send("insert product data successfully...");
     })
     .catch((err)=>{
-        res.send("Product data not save...."+err);
+        res.send("Product data not save....");
     })
 }
 exports.deleteProduct=(req,res)=>{
